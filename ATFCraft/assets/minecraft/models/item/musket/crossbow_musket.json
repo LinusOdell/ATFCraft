@@ -1,0 +1,80 @@
+{
+    "parent": "item/musket/musket_empty",
+    "overrides": [
+        {
+            "predicate": {
+                "pulling": 1
+            },
+            "model": "item/musket/musket_loading_0"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.2
+            },
+            "model": "item/musket/musket_loading_1"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.4
+            },
+            "model": "item/musket/musket_loading_2"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.5
+            },
+            "model": "item/musket/musket_loading_3"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.6
+            },
+            "model": "item/musket/musket_loading_4"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.7
+            },
+            "model": "item/musket/musket_loading_5"
+        },
+		{
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.8
+            },
+            "model": "item/musket/musket_loading_6"
+        },
+		{
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.85
+            },
+            "model": "item/musket/musket_loading_7"
+        },
+		{
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.9
+            },
+            "model": "item/musket/musket_loading_8"
+        },
+		{
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.95
+            },
+            "model": "item/musket/musket_loading_9"
+        },
+        {
+            "predicate": {
+                "charged": 1
+            },
+            "model": "item/musket/musket_primed"
+        }
+    ]
+}
